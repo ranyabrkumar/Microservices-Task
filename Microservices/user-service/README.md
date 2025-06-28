@@ -31,3 +31,8 @@ docker build -t user-service .
 ```sh
 docker run -d -p 3000:3000 user-service
 ```
+
+
+---
+![user_service_dockerimage](https://github.com/user-attachments/assets/e115dea8-2e17-4d81-94b5-68280e0895e1)
+
