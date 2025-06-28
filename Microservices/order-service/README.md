@@ -31,3 +31,6 @@ docker build -t order-service .
 ```sh
 docker run -d -p 3002:3002 order-service
 ```
+---
+![order_service_dockerImage](https://github.com/user-attachments/assets/7aff3460-c45c-445c-afab-102b24d6a155)
+
