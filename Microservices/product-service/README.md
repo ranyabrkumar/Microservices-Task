@@ -31,3 +31,6 @@ docker build -t product-service .
 ```sh
 docker run -d -p 3001:3001 product-service
 ```
+---
+
+![Product_service_dockerImage](https://github.com/user-attachments/assets/9637f805-d253-43c6-bf11-e55d6f50f766)
