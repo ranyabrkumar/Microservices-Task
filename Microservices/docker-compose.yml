@@ -13,7 +13,13 @@ services:
       - "3001:3001"
     networks:
       - app-network
-
+  
+  order-service:
+    build: ./order-service
+    ports:
+      - "3002:3002"
+    networks:
+      - app-network
   gateway-service:
     build: ./gateway-service
     ports:
